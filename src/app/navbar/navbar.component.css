@@ -1,5 +1,5 @@
 .active {
-    color: #00bcd4 !important;
+    color: rgb(127, 2, 177) !important;
 }
 @media (max-width: 991px) {
 .navbar-collapse::after {
