@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+.nav-pills .nav-item .nav-link.active {
+    color: #ffffff;
+    background: rgb(12,1,108);
+    background: linear-gradient(135deg, rgba(12,1,108,1) 0%, rgba(177,1,247,1) 100%);    
+    box-shadow: 0 5px 20px 0px rgb(0 0 0 / 20%), 0 13px 24px -11px rgb(156 39 176 / 60%);
+}

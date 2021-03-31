@@ -6,8 +6,11 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { AquadroneComponent } from './projects/aquadrone/aquadrone.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { TutorialsComponent } from './tutorials/tutorials.component';
+import { LisaRobotComponent } from './projects/lisa-robot/lisa-robot.component';
+import { RobotractorComponent } from './projects/robotractor/robotractor.component';
 
 @NgModule({
   declarations: [
@@ -15,8 +18,11 @@ import { TutorialsComponent } from './tutorials/tutorials.component';
     NavbarComponent,
     HomeComponent,
     PagenotfoundComponent,
+    AquadroneComponent,
     ProjectsComponent,
-    TutorialsComponent
+    TutorialsComponent,
+    LisaRobotComponent,
+    RobotractorComponent
   ],
   imports: [
     BrowserModule,

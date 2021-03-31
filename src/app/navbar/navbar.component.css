@@ -1,5 +1,5 @@
 .active {
-    color: rgb(127, 2, 177) !important;
+    color: #0c016c !important;
 }
 @media (max-width: 991px) {
 .navbar-collapse::after {
@@ -19,4 +19,10 @@
     color: white;
     margin: 5px 15px;
 }
+}
+.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:focus, .dropdown-menu .dropdown-item:active, .dropdown-menu a:active, .dropdown-menu a.active, .dropdown-menu a:hover, .dropdown-menu a:focus, .dropdown-menu a:active {
+    box-shadow: 0 4px 20px 0px rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(156 39 176 / 40%);
+    background: rgb(12,1,108);
+    background: linear-gradient(135deg, rgba(12,1,108,1) 0%, rgba(177,1,247,1) 100%);    
+    color: #fff !important;
 }
