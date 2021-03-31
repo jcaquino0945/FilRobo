@@ -3,9 +3,11 @@ import { RouterModule, Routes } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { AquadroneComponent } from './projects/aquadrone/aquadrone.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
+  { path: 'projects/aquadrone', component: AquadroneComponent },
   { path: '',   redirectTo: '/home', pathMatch: 'full' }, // redirect to `Home`
   { path: '**', component: PagenotfoundComponent },
 ];

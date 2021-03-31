@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { AquadroneComponent } from './projects/aquadrone/aquadrone.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    AquadroneComponent
   ],
   imports: [
     BrowserModule,
