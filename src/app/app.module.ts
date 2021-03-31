@@ -11,6 +11,9 @@ import { ProjectsComponent } from './projects/projects.component';
 import { TutorialsComponent } from './tutorials/tutorials.component';
 import { LisaRobotComponent } from './projects/lisa-robot/lisa-robot.component';
 import { RobotractorComponent } from './projects/robotractor/robotractor.component';
+import { ArduinoComponent } from './tutorials/arduino/arduino.component';
+import { HowtoflyComponent } from './tutorials/howtofly/howtofly.component';
+import { RobotOSComponent } from './tutorials/robot-os/robot-os.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { RobotractorComponent } from './projects/robotractor/robotractor.compone
     ProjectsComponent,
     TutorialsComponent,
     LisaRobotComponent,
-    RobotractorComponent
+    RobotractorComponent,
+    ArduinoComponent,
+    HowtoflyComponent,
+    RobotOSComponent
   ],
   imports: [
     BrowserModule,
