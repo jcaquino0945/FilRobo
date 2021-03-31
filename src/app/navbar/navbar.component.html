@@ -18,15 +18,37 @@
               Home
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/projects" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-              Projects
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" routerLink="/projects" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+              <i class="material-icons">apps</i> Projects
             </a>
+            <div class="dropdown-menu dropdown-with-icons">
+              <a routerLink="/projects/aquadrone" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="dropdown-item">
+                <i class="material-icons">layers</i> Aquadrone
+              </a>
+              <a routerLink="/projects/lisaRobot" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="dropdown-item">
+                <i class="material-icons">layers</i> Lisa Robot
+              </a>
+              <a routerLink="/projects/robotractor" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="dropdown-item">
+                <i class="material-icons">layers</i> Robotractor
+              </a>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/tutorials" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-              Tutorials
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" routerLink="/tutorials" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+              <i class="material-icons">apps</i> Tutorials
             </a>
+            <div class="dropdown-menu dropdown-with-icons">
+              <a routerLink="/tutorials/arduino" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="dropdown-item">
+                <i class="material-icons">content_paste</i> Arduino
+              </a>
+              <a routerLink="/tutorials/howtofly" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="dropdown-item">
+                <i class="material-icons">content_paste</i> How To Fly A Drone
+              </a>
+              <a routerLink="/tutorials/robotOS" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="dropdown-item">
+                <i class="material-icons">content_paste</i> Robot Operating System
+              </a>
+            </div>
           </li>
           
           <li class="nav-item">
