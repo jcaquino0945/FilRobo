@@ -11,6 +11,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { TutorialsComponent } from './tutorials/tutorials.component';
 import { LisaRobotComponent } from './projects/lisa-robot/lisa-robot.component';
 import { RobotractorComponent } from './projects/robotractor/robotractor.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +23,13 @@ import { RobotractorComponent } from './projects/robotractor/robotractor.compone
     ProjectsComponent,
     TutorialsComponent,
     LisaRobotComponent,
-    RobotractorComponent
+    RobotractorComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

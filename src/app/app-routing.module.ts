@@ -7,10 +7,12 @@ import { AquadroneComponent } from './projects/aquadrone/aquadrone.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { LisaRobotComponent } from './projects/lisa-robot/lisa-robot.component';
 import { RobotractorComponent } from './projects/robotractor/robotractor.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'projects', component: ProjectsComponent },
+  { path: 'about-us', component: AboutUsComponent },
   { path: 'projects/aquadrone', component: AquadroneComponent },
   { path: 'projects/lisaRobot', component: LisaRobotComponent },
   { path: 'projects/robotractor', component: RobotractorComponent },
@@ -20,7 +22,8 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes,{
+    anchorScrolling: 'enabled'})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

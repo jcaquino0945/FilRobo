@@ -1,6 +1,7 @@
 .active {
     color: #0c016c !important;
 }
+
 @media (max-width: 991px) {
 .navbar-collapse::after {
     top: 0;
